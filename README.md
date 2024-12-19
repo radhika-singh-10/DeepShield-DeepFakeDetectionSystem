@@ -1,6 +1,7 @@
 # CSE-573-DeepFake-Image-Detection
 
-# Project Overview
+# Project Overview - Comparative Analysis of Deep Fake Detection System for
+Ensuring Integrity in Images
 
 The detection of Deepfake content on social media is a well-researched problem, 
 with significant contributions made by architectures like ForensicTransfer and Improved VGG-CNN, 
