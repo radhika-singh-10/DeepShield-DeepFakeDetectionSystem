@@ -1,5 +1,4 @@
-# CSE-573-DeepFake-Image-Detection
-
+# CSE-573-Computer-Vision-And-Processing
 # Project Overview - Comparative Analysis of Deep Fake Detection System for
 Ensuring Integrity in Images
 
