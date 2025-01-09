@@ -340,12 +340,6 @@ def main():
             recall = recall_score(all_labels, all_predictions, average='weighted')
             f1 = f1_score(all_labels, all_predictions, average='weighted')
 
-            training_loss-=0.2
-            precision+=0.1
-            recall+=0.1
-            f1+=0.1
-            training_accuracy+=20
-
             print(f"Epoch [{epoch+1}/{num_epochs}], Training Loss: {training_loss:.4f}, Training Accuracy: {training_accuracy:.2f}%")
             print(f'Precision: {precision:.4f}, Recall: {recall:.4f}, F1 Score: {f1:.4f}')
 
@@ -411,11 +405,6 @@ def main():
         precision = precision_score(all_labels, all_predictions, average='weighted')
         recall = recall_score(all_labels, all_predictions, average='weighted')
         f1 = f1_score(all_labels, all_predictions, average='weighted')
-        val_loss-=0.14
-        precision+=0.1
-        recall+=0.1
-        f1+=0.1
-        val_accuracy+=20
         print(f'Validation Accuracy: {val_accuracy:.2f}%, Validation Loss: {val_loss:.4f}')
         print(f'Precision: {precision:.4f}, Recall: {recall:.4f}, F1 Score: {f1:.4f}')
 
